@@ -42,7 +42,6 @@ module.exports = {
     // tests, no restrictions (runs in Node / jest with jsdom)
     {
       files: ['**/__tests__/**', '**/dist/**'],
-      rules: {
         'no-restricted-globals': 'off',
         'no-restricted-syntax': 'off',
       },
